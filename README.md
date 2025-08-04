@@ -4,7 +4,7 @@ GemMate is a powerful AI crew orchestration platform that allows you to create, 
 
 ## 🎬 Demo Video
 
-[![GemMate Demo](docs/gif/creating_agent.gif)](https://youtu.be/fvEWmjBW1rc)
+[![GemMate Demo](docs/gif/creating_agent.gif)](https://youtu.be/q53g5jte5_0)
 
 *Click to watch a full demonstration of GemMate's features including agent creation, configuration, and capabilities.*
 
