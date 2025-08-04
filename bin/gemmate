@@ -1,0 +1,55 @@
+#!/usr/bin/env node
+
+import { spawn } from 'child_process';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Get the directory where this package is installed
+const packageDir = path.dirname(__dirname);
+const distDir = path.join(packageDir, 'dist');
+
+// Check if dist directory exists
+if (!fs.existsSync(distDir)) {
+  console.error('❌ GemMate distribution files not found!');
+  console.error('Please reinstall: npm install -g @gemmate/ai-crew-orchestrator');
+  process.exit(1);
+}
+
+console.log('🤖 Starting GemMate AI Crew Orchestrator...');
+console.log('📂 Serving from:', distDir);
+console.log('🌐 Opening at: http://localhost:3000');
+console.log('');
+console.log('Press Ctrl+C to stop the server');
+console.log('');
+
+// Start the serve command
+const serve = spawn('npx', ['serve', distDir, '-s'], {
+  stdio: 'inherit',
+  shell: true
+});
+
+serve.on('error', (error) => {
+  console.error('❌ Failed to start server:', error.message);
+  console.error('');
+  console.error('💡 Try installing serve globally:');
+  console.error('   npm install -g serve');
+  process.exit(1);
+});
+
+serve.on('close', (code) => {
+  if (code !== 0) {
+    console.error(`❌ Server exited with code ${code}`);
+  } else {
+    console.log('👋 GemMate stopped');
+  }
+});
+
+// Handle Ctrl+C gracefully
+process.on('SIGINT', () => {
+  console.log('\n👋 Stopping GemMate...');
+  serve.kill('SIGINT');
+});

@@ -14,13 +14,23 @@ GemMate is a powerful AI crew orchestration platform that allows you to create, 
 
 ## 🚀 Quick Start
 
-### Option 1: Install from npm (Recommended)
+### Option 1: Global Installation (Recommended)
+
+```bash
+npm install -g @gemmate/ai-crew-orchestrator
+gemmate
+```
+
+That's it! The app will start and open at `http://localhost:3000`
+
+### Option 2: Local Installation
 
 ```bash
 npm install @gemmate/ai-crew-orchestrator
+npx gemmate
 ```
 
-### Option 2: Local Development
+### Option 3: Development Setup
 
 ```bash
 git clone https://github.com/VishApp/gemmate
