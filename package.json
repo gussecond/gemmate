@@ -1,7 +1,7 @@
 {
   "name": "@gemmate/ai-crew-orchestrator",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "AI Crew Orchestrator - Manage and coordinate multiple AI agents with web search, file attachments, and recording capabilities",
   "type": "module",
   "main": "dist/index.html",

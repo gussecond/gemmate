@@ -2,6 +2,12 @@
 
 GemMate is a powerful AI crew orchestration platform that allows you to create, configure, and manage teams of specialized AI agents. Build your own group of AI assistants with unique capabilities including web search, file analysis, and voice recording.
 
+## 🎬 Demo Video
+
+[![GemMate Demo](docs/gif/creating_agent.gif)](https://youtu.be/fvEWmjBW1rc)
+
+*Click to watch a full demonstration of GemMate's features including agent creation, configuration, and capabilities.*
+
 ## ✨ Key Features
 
 - **Easy Agent Creation**: Create specialized AI agents with natural language descriptions
