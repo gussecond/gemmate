@@ -1,0 +1,7 @@
+
+{
+  "requestFramePermissions": ["microphone"],
+  "name": "GemMate",
+  "description": "",
+  "prompt": ""
+}

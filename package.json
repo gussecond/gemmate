@@ -1,0 +1,48 @@
+{
+  "name": "@gemmate/ai-crew-orchestrator",
+  "private": false,
+  "version": "1.0.1",
+  "description": "AI Crew Orchestrator - Manage and coordinate multiple AI agents with web search, file attachments, and recording capabilities",
+  "type": "module",
+  "main": "dist/index.html",
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "agents",
+    "gemini",
+    "orchestrator",
+    "chatbot",
+    "automation",
+    "crew",
+    "artificial-intelligence"
+  ],
+  "author": "vishapp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VishApp/gemmate.git"
+  },
+  "homepage": "https://github.com/VishApp/gemmate#readme",
+  "bugs": {
+    "url": "https://github.com/VishApp/gemmate/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.0",
+    "react": "^19.1.0",
+    "@google/genai": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
