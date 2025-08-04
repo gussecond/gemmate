@@ -1,6 +1,6 @@
 # GemMate AI Crew Orchestrator
 
-GemMate is a powerful AI crew orchestration platform that allows you to create, configure, and manage teams of specialized AI agents. Build your own group of AI assistants with unique capabilities including web search, file analysis, voice recording, and task execution.
+GemMate is a powerful AI crew orchestration platform that allows you to create, configure, and manage teams of specialized AI agents. Build your own group of AI assistants with unique capabilities including web search, file analysis, and voice recording.
 
 ## ✨ Key Features
 
@@ -54,7 +54,7 @@ npm run dev
 3. **Start Creating Agents**
    - Use the prompt input to describe your first agent
    - Configure additional settings as needed
-   - Begin collaborating with your AI crew!
+   - Begin using your AI agents!
 
 ## 🛠️ Technologies Used
 
@@ -66,14 +66,14 @@ npm run dev
 
 ## 🎯 Use Cases
 
-- **Content Creation**: Marketing specialists, writers, and editors working together
-- **Research Teams**: Analysts gathering and synthesizing information from multiple sources
+- **Content Creation**: Marketing specialists, writers, and editors for different content types
+- **Research**: Analysts gathering and synthesizing information from multiple sources
 - **Development Support**: Code reviewers, documentation writers, and testing specialists
-- **Customer Service**: Multi-tiered support with specialized knowledge bases
+- **Customer Service**: Specialized support agents with different knowledge bases
 - **Educational Assistance**: Subject matter experts for different academic areas
 
 ## 📱 Getting Started
 
-Once installed and configured with your API key, you can immediately start creating agents. Simply describe what kind of assistant you need, and GemMate will generate a specialized agent with appropriate tools and capabilities. Your agents can then collaborate, search the web, analyze files, and help you accomplish complex multi-step tasks.
+Once installed and configured with your API key, you can immediately start creating agents. Simply describe what kind of assistant you need, and GemMate will generate a specialized agent with appropriate tools and capabilities. Your agents can search the web, analyze files, and help you accomplish various tasks.
 
-No technical knowledge required - just describe what you need and let your AI crew handle the rest!
+No technical knowledge required - just describe what you need and let your AI agents handle the rest!
